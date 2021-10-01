@@ -1,4 +1,4 @@
-// 
+// day display
 var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
 
@@ -78,6 +78,7 @@ submissionFormSeventeen.addEventListener("click", function(event){
     localStorage.setItem("task-17", taskSeventeen);
 })
 
+// displays the task after refresh
 document.getElementById("task-9").value = localStorage.getItem("task-9");
 document.getElementById("task-10").value = localStorage.getItem("task-10");
 document.getElementById("task-11").value = localStorage.getItem("task-11");
@@ -88,6 +89,7 @@ document.getElementById("task-15").value = localStorage.getItem("task-15");
 document.getElementById("task-16").value = localStorage.getItem("task-16");
 document.getElementById("task-17").value = localStorage.getItem("task-17");
 
+// changes the classes of the inputs depending on the time
 setInterval(function(){
     var elements = document.querySelectorAll("input")
     elements.forEach(element => {
