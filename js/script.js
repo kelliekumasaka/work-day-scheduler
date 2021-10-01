@@ -1,3 +1,4 @@
+// 
 var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
 
@@ -88,15 +89,16 @@ document.getElementById("task-16").value = localStorage.getItem("task-16");
 document.getElementById("task-17").value = localStorage.getItem("task-17");
 
 setInterval(function(){
-    // class change depending on the time --> if timeBlock is < currentNowHour change to class .past --> else if timeBlock is === currentNowHour change to class .present --> else change to class .future
-    console.log(moment().hour())
     var elements = document.querySelectorAll("input")
     elements.forEach(element => {
         var id = element.getAttribute("id");
         var number = id.split("-")[1];
-        console.log(number)
+        if(moment().hour() == number){
+            element.classList.add("present");
+        }else if(moment().hour() < number){
+            element.classList.add("future");
+        }else{
+            element.classList.add("past");
+        }
     });
-    if(moment().hour()){
-        
-    }
 },1000)
