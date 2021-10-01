@@ -5,9 +5,9 @@ On this website, you are able to create tasks to plan out your work day. This wi
 The website is available for use [here](https://kelliekumasaka.github.io/work-day-scheduler/). 
 
 ## Contents
-The website looks like the below picture when you open the site and you can input your tasks into the task bar area.
-![Blank task manager website](work-day-scheduler/images/blank.png)
-![Website with gray bars and tasks inside with the captions "Morning meeting with sales team", "Update daily task manager on monday.com", and "Lunch break!](work-day-scheduler/images/filled.png)
+The website looks like the below pictures when you open the site and you can input your tasks into the task bar area.
+![Blank task manager website](./images/blank.png)
+![Website with gray bars and tasks inside with the captions "Morning meeting with sales team", "Update daily task manager on monday.com", and "Lunch break!](./images/filled.png)
 
 ## Summary
 The fully deployed website has a clean look and helpful for busy working people.
