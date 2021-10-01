@@ -36,6 +36,10 @@ textarea {
   border-top: 10px solid white;
 }
 
+input.form-control.col-md-9 {
+  height: 80px;
+}
+
 .hour {
   background-color: #ffffff;
   color: #000000;

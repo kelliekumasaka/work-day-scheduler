@@ -30,70 +30,115 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <div class="container">
-        <div class="row ">
-            <div class="col-sm hour" id="kuji">
-              9AM
-            </div>
-            <input class="col-md-9" type="text">
-            <input type="submit" class="col-sm saveBtn" value="Save">
-        </div>
-        <div class="row ">
-          <div class="col-sm hour" id="juuji">
-            10AM
-          </div>
-          <input class="col-md-9" type="text">
-          <input type="submit" class="col-sm saveBtn" value="Save">
-        </div>
-        <div class="row">
-          <div class="col-sm hour" id="juuichiji">
-            11AM
-          </div>
-          <input class="col-md-9" type="text">
-          <input type="submit" class="col-sm saveBtn" value="Save">
-        </div>
-        <div class="row">
-          <div class="col-sm hour" id="juuniji">
-            12PM
-          </div>
-          <input class="col-md-9" type="text">
-          <input type="submit" class="col-sm saveBtn" value="Save">
-        </div>
-        <div class="row">
-          <div class="col-sm hour" id="juusanji">
-            1PM
-          </div>
-          <input class="col-md-9" type="text">
-          <input type="submit" class="col-sm saveBtn" value="Save">
-        </div>
-        <div class="row">
-          <div class="col-sm hour" id="juuyoji">
-            2PM
-          </div>
-          <input class="col-md-9" type="text">
-          <input type="submit" class="col-sm saveBtn" value="Save">
-        </div>
-        <div class="row">
-          <div class="col-sm hour" id="juugoji">
-            3PM
-          </div>
-          <input class="col-md-9" type="text">
-          <input type="submit" class="col-sm saveBtn" value="Save">
-        </div>
-        <div class="row">
-          <div class="col-sm hour" id="juurokuji">
-            4PM
-          </div>
-          <input class="col-md-9" type="text">
-          <input type="submit" class="col-sm saveBtn" value="Save">
-        </div>
-        <div class="row">
-          <div class="col-sm hour" id="juushichiji">
-            5PM
-          </div>
-          <input class="col-md-9" type="text">
-          <input type="submit" class="col-sm saveBtn" value="Save">
-        </div>
+      <!-- <div>
+        <form class="row" id="nine">
+          <div class="col-sm hour" id="kuji">9AM</div>
+          <input class="col-md-9 task" type="text" id="taskNine"/>
+          <button type="submit" class="col-sm saveBtn" id="#saveBtnNine" value="Save">
+            Save
+          </button>
+        </form>
+        <form class="row" id="ten">
+          <div class="col-sm hour" id="juuji">10AM</div>
+          <input class="col-md-9 task" type="text" id="taskTen"/>
+          <button type="submit" class="col-sm saveBtn" value="Save">
+            Save
+          </button>
+        </form>
+        <form class="row" id="eleven">
+          <div class="col-sm hour" id="juuichiji">11AM</div>
+          <input class="col-md-9 task" type="text" id="taskEleven"/>
+          <button type="submit" class="col-sm saveBtn" value="Save">
+            Save
+          </button>
+        </form>
+        <form class="row" id="twelve">
+          <div class="col-sm hour" id="juuniji">12PM</div>
+          <input class="col-md-9 task" type="text" id="taskTwelve"/>
+          <button type="submit" class="col-sm saveBtn" value="Save">
+            Save
+          </button>
+        </form>
+        <form class="row" id="thirteen">
+          <div class="col-sm hour" id="juusanji">1PM</div>
+          <input class="col-md-9" type="text" id="taskOne"/>
+          <button type="submit" class="col-sm saveBtn" value="Save">
+            Save
+          </button>
+        </form>
+        <form class="row" id="fourteen">
+          <div class="col-sm hour" id="juuyoji">2PM</div>
+          <input class="col-md-9 task" type="text" id="taskTwo"/>
+          <button type="submit" class="col-sm saveBtn" value="Save">
+            Save
+          </button>
+        </form>
+        <form class="row" id="fifteen">
+          <div class="col-sm hour" id="juugoji">3PM</div>
+          <input class="col-md-9 task" type="text" id="taskThree"/>
+          <button type="submit" class="col-sm saveBtn" value="Save">
+            Save
+          </button>
+        </form>
+        <form class="row" id="sixteen">
+          <div class="col-sm hour" id="juurokuji">4PM</div>
+          <input class="col-md-9 task" type="text" id="taskFour"/>
+          <button type="submit" class="col-sm saveBtn" value="Save">
+            Save
+          </button>
+        </form>
+        <form class="row" id="seventeen">
+          <div class="col-sm hour" id="juushichiji">5PM</div>
+          <input class="col-md-9 task" type="text" id="taskFive"/>
+          <button type="submit" class="col-sm saveBtn" value="Save">
+            Save
+          </button>
+        </form>
+      </div> -->
+      <div class="input-group mb-3 row">
+        <div class="col-sm-2 hour">9AM</div>
+        <input type="text" class="form-control col-md-9" aria-label="Recipient's username" aria-describedby="button-addon2" id="task-9">
+        <button class="btn btn-outline-secondary saveBtn" type="button" id="nine">Save</button>
+      </div>
+      <div class="input-group mb-3 row">
+        <div class="col-sm-2 hour">10AM</div>
+        <input type="text" class="form-control col-md-9" aria-label="Recipient's username" aria-describedby="button-addon2" id="task-10">
+        <button class="btn btn-outline-secondary saveBtn" type="button" id="ten">Save</button>
+      </div>
+      <div class="input-group mb-3 row">
+        <div class="col-sm-2 hour">11AM</div>
+        <input type="text" class="form-control col-md-9" aria-label="Recipient's username" aria-describedby="button-addon2" id="task-11">
+        <button class="btn btn-outline-secondary saveBtn" type="button" id="eleven">Save</button>
+      </div>
+      <div class="input-group mb-3 row">
+        <div class="col-sm-2 hour">12PM</div>
+        <input type="text" class="form-control col-md-9" aria-label="Recipient's username" aria-describedby="button-addon2" id="task-12">
+        <button class="btn btn-outline-secondary saveBtn" type="button" id="twelve">Save</button>
+      </div>
+      <div class="input-group mb-3 row">
+        <div class="col-sm-2 hour">1PM</div>
+        <input type="text" class="form-control col-md-9" aria-label="Recipient's username" aria-describedby="button-addon2" id="task-13">
+        <button class="btn btn-outline-secondary saveBtn" type="button" id="thirteen">Save</button>
+      </div>
+      <div class="input-group mb-3 row">
+        <div class="col-sm-2 hour">2PM</div>
+        <input type="text" class="form-control col-md-9" aria-label="Recipient's username" aria-describedby="button-addon2" id="task-14">
+        <button class="btn btn-outline-secondary saveBtn" type="button" id="fourteen">Save</button>
+      </div>
+      <div class="input-group mb-3 row">
+        <div class="col-sm-2 hour">3PM</div>
+        <input type="text" class="form-control col-md-9" aria-label="Recipient's username" aria-describedby="button-addon2" id="task-15">
+        <button class="btn btn-outline-secondary saveBtn" type="button" id="fifteen">Save</button>
+      </div>
+      <div class="input-group mb-3 row">
+        <div class="col-sm-2 hour">4PM</div>
+        <input type="text" class="form-control col-md-9" aria-label="Recipient's username" aria-describedby="button-addon2" id="task-16">
+        <button class="btn btn-outline-secondary saveBtn"  type="button" id="sixteen">Save</button>
+      </div>
+      <div class="input-group mb-3 row">
+        <div class="col-sm-2 hour">5PM</div>
+        <input type="text" class="form-control col-md-9" aria-label="Recipient's username" aria-describedby="button-addon2" id="task-17">
+        <button class="btn btn-outline-secondary saveBtn" type="button" id="seventeen">Save</button>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
